@@ -478,7 +478,7 @@ div > h2{    /*title of the section*/
     #about > p{
 
         font-size: 1rem;
-
+        width: 60%;
     }
 
     hr{
@@ -506,15 +506,27 @@ div > h2{    /*title of the section*/
         font-size: 1.2rem;
     }
 
+    
+    .details{
+        width: 100%;
+        gap: 5px;
+    }
+
+    .details > .card{
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+
     .details > .card > p{
 
         font-size: 1rem;
-
+        width: 80%;
     }
 
     .details > .card > .image{
-        height: 75px;
-        width: 75px;
+        height: 100px;
+        width: 100px;
     }
     
     .details > .card > .image > img {
@@ -575,7 +587,7 @@ div > h2{    /*title of the section*/
     #about > p{
 
         font-size: 1rem;
-
+        width: 80%;
     }
 
     hr{
@@ -603,15 +615,26 @@ div > h2{    /*title of the section*/
         font-size: 1.2rem;
     }
 
+    .details{
+        width: 100%;
+        gap: 5px;
+    }
+
+    .details > .card{
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+
     .details > .card > p{
 
         font-size: 1rem;
-
+        width: 80%;
     }
 
     .details > .card > .image{
-        height: 75px;
-        width: 75px;
+        height: 100px;
+        width: 100px;
     }
     
     .details > .card > .image > img {
@@ -711,16 +734,22 @@ div > h2{    /*title of the section*/
 
     .details{
         width: 100%;
-        
+        gap: 5px;
+
     }
 
+
     .details > .card{
-        padding: 10px;
+
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
     }
 
     .details > .card > p{
 
         font-size: 1rem;
+        width: 80%;
     }
 
     .details > .card > .image{
@@ -834,7 +863,9 @@ div > h2{    /*title of the section*/
     }
 
     .details > .card{
-        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
     }
 
     .details > .card > p{
