@@ -646,7 +646,7 @@ div > h2{    /*title of the section*/
 
 }
 
-@media (max-width: 579px){
+@media (min-width: 451px) and (max-width: 579px){
 
     .castle > img{
         display: none;
@@ -671,8 +671,8 @@ div > h2{    /*title of the section*/
 
     #about > p{
 
-        font-size: 0.8rem;
-
+        font-size: 1rem;
+        width: 80%;
     }
 
     hr{
@@ -709,20 +709,28 @@ div > h2{    /*title of the section*/
         font-size: 1.2rem;
     }
 
+    .details{
+        width: 100%;
+        
+    }
+
+    .details > .card{
+        padding: 10px;
+    }
+
     .details > .card > p{
 
-        font-size: 0.8rem;
-
+        font-size: 1rem;
     }
 
     .details > .card > .image{
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 100px;
     }
     
     .details > .card > .image > img {
-        height: 25px;
-        width: 25px;
+        height: 50px;
+        width: 50px;
     }
 
     #contact > .contact-container > h2{
@@ -783,7 +791,7 @@ div > h2{    /*title of the section*/
     #about > p{
 
         font-size: 1rem;
-        width: 100%;
+        width: 80%;
     }
 
     hr{
@@ -831,7 +839,7 @@ div > h2{    /*title of the section*/
 
     .details > .card > p{
 
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .details > .card > .image{
