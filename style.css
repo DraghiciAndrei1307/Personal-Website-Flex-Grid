@@ -516,6 +516,7 @@ div > h2{    /*title of the section*/
         padding-left: 60px;
         padding-right: 60px;
         padding-top: 30px;
+        margin: 0 50px 0 50px;
     }
 
     .details > .card > p{
@@ -621,9 +622,10 @@ div > h2{    /*title of the section*/
     }
 
     .details > .card{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
         padding-top: 30px;
+        margin: 0 50px 0 50px;
     }
 
     .details > .card > p{
