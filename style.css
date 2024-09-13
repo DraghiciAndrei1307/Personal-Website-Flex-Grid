@@ -510,6 +510,7 @@ div > h2{    /*title of the section*/
     .details{
         width: 100%;
         gap: 5px;
+        padding: 0px;
     }
 
     .details > .card{
@@ -619,6 +620,7 @@ div > h2{    /*title of the section*/
     .details{
         width: 100%;
         gap: 5px;
+        padding: 0px;
     }
 
     .details > .card{
@@ -737,7 +739,7 @@ div > h2{    /*title of the section*/
     .details{
         width: 100%;
         gap: 5px;
-
+        padding: 0px;
     }
 
 
@@ -746,6 +748,7 @@ div > h2{    /*title of the section*/
         padding-left: 60px;
         padding-right: 60px;
         padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .details > .card > p{
@@ -860,14 +863,16 @@ div > h2{    /*title of the section*/
     }
 
     .details{
-        width: 100%;
-        
+        width:80%;
+        padding: 0px;
+        gap: 20px;
     }
 
     .details > .card{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
         padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .details > .card > p{
